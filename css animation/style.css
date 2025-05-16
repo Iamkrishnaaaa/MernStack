@@ -1,0 +1,154 @@
+/* What is animation
+    "Any kind of an object whether it is text or an image  whatever the case if that is moving in any medium in a specific time that becomes an animation"
+    (For example in a screen  if a car is moving that is a kind of animation)
+ */
+ body{
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #000000;
+    color: whitesmoke;
+ }
+ .container{
+    display: flex;
+    /* justify-content: center; */
+
+ }
+.box{
+    width: 100px;
+    height: 100px;
+    background: rgb(251, 251, 251);
+    border-radius: 10px;
+    /* new  property */
+    transition: width -1s;
+    /* position: relative; */
+    /* using this position relative and in img position absolute have a link
+       which we can alter the position by left,right,bottom and top. 
+    */
+    /* box-shadow: 0px 3px 5px 0px; */
+
+
+   /* Moving Animation 
+   for making this moving animation we need to follow three steps
+    #name
+    #duration
+    #destination
+   */
+    animation-name: whitebox;
+    animation-duration: 2s;
+    /* animation fill mode is used to stop the animated object to come back to the initial state */
+    animation-fill-mode: both;
+    /* animation iteration count is used to how many time the animation takes place in the page */
+    animation-iteration-count: 3;
+    /* animation alternate is used to do pendelum wise moment either we can use reverse */
+    animation-direction: alternate;
+}
+/* DESTINATION is denoted by keyframe */
+@keyframes whitebox{
+    50%{
+        border-radius: 50px;
+        background-color: teal;
+    }
+    70%{
+        border-radius: 70px;
+        background-color: dodgerblue;
+    }
+    100%{
+        margin-left: 1500px;
+        transform: rotate(360deg);
+        background: #8f0000;
+    }
+
+}
+/* .box:hover{
+    width: 360px;
+    border-radius: 10px;
+} */
+.img{
+    text-align: center;
+    /* position: absolute; */
+    left: 10px;
+    top: 6px;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 20PX;
+    border: 2px solid;
+   border: 1px solid;
+    box-shadow: 0px 3px 5px 0px;
+    
+}
+.img:hover{
+    height: 100px;
+    width: 110px;
+    
+}
+.food-card{
+    width:300px;
+    border: 1px solid ;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+    transition: 2ms;
+    margin-top: 20px;
+}
+.food-img{
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.03);
+   box-shadow: 0px 3px 5px 0px #1e1e1e;
+    
+}
+.food-card:hover{
+    width: 320px;
+    transform: rotate(4deg);
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+            
+.cookies{
+    background-color: white;
+    width: 380px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 100px;
+    bottom: 0;
+/* position: fixed; */
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    
+}
+.content{
+    background-color: white;
+    color: black;
+    padding: 0px 20px;
+}
+.cookies-img{
+    
+    width: 130px;
+    height: 130px;
+    margin: 10px auto;
+    border-radius: 50%;
+    animation-name: rolling-cookie;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    circ;
+}
+
+@keyframes rolling-cookie {
+    100%{
+        transform: rotate(30deg);
+    }
+}
+}

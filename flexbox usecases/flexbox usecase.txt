@@ -1,0 +1,5 @@
+ /* justify content is used for allining the text rignt left */
+    /* alligh items is used for allining the text top and bottom */
+
+    Flexbox is mainly used to display the image and their explanation parallely.
+    where u can see in the example.

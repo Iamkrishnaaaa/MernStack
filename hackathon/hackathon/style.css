@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.tate-school{
+    width: 400px;
+    margin: 40px 10px;
+    position: relative;
+     
+}
+.andrew-img{
+    width: 500px;
+    border-radius: 18px;
+     border: 1px solid lightgray;
+    object-fit: cover;
+    /* this object fit covers makes the img more claritive */
+
+    
+}
+.andrew-content{
+    position: absolute;
+    top: 0;
+    /* padding: 22px; */
+    margin:16px;
+    margin-left: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin: 30px;
+    margin-left: 18px;
+    padding: 3px 6px;
+    cursor: pointer;
+    
+}
+.text{
+    color: white;
+}
+.bottom{
+    width: 350px;
+    display: flex;
+    margin: 200px 10px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 100px;
+    
+    align-items: center;
+}
+.content2{
+    width: 165px;
+    /* display: flex; */
+    justify-content: center;
+    
+    
+}
+.teacher-img{
+    width: 150px;
+    height: 200px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.btn-down{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.text{
+    padding: 0px 0px 33px 15px;
+}
+.text h5{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ font-weight: 1000;
+}
+.bottom:first-child{
+    margin-left:0px;
+}
+.bottom:last-child{
+    margin-right: 0px;
+}

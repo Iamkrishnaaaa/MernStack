@@ -1,0 +1,17 @@
+CSS(Cascading style sheet)
+Css implementation:
+  In css there are three implementations:
+               *inline implementation.->higher priority
+	             *internal implementation.
+               *external implementation.(In and Ex have same priority)
+		(this is the priority path)
+
+Linking of main file with css file:
+     <link rel="stylesheet" href="filename.css">(ie:"rel=stylesheet"->  [Relational styleesheet]which refers what file we are linking)
+     
+->we using external css for a clean website code analization by separating the code.
+*nd there is no need of displaying the colors for same headings no repetation of same size heading alteration.code compatability.
+->we using inline css for specific changes like color ,font for the same heading size.
+
+   Inserting images or videos:
+      we need to use div tag for altering img and videos actually. which act as like rapper or a parent element.

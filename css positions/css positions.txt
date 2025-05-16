@@ -1,0 +1,22 @@
+ Css poisions:
+ css positions having:
+        *static->default(no change)
+        *sticky
+        *fixed
+        *relative
+        *absolute
+
+Sticky:
+    will stable in same place even the content move
+    by denoting where we're going to place the thing that will'be stick there like(top,bottom right,left).
+fixed;
+    It will not move anywhere it'ill be stable in the same position.
+Relative and absolute:
+    where these both are used to create class in class like creating two div like nested...
+    By creating them we can create a design the web more intrestingly.(the exaplme is given in the code)
+
+	"using this position relative and in img position absolute have a link
+       which we can alter the position by left,right,bottom and top. "
+
+
+        

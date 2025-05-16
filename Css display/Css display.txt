@@ -1,0 +1,26 @@
+In this css display we are going to study about:
+   *Display
+   *Buttons
+   *Overflow
+
+->Display:
+   In display we can enhance the img using padding tag
+   by giving [padding :10px 20px 30px 40px;] which denotes the clockwise value adding
+   this 10 is for top layer followed by right,bottom,and left layer.
+
+    *display: block; it is default thing in sense no change.
+    *display: none; it will unapparently hide your content in the website.
+    (VERY IMPORTANT:::)
+    *display: inline; which is used to separate the specific text by highlighting them.
+    and in inline we cannot use margin correction because of default margin size instead of that we can use inline-block in that 
+    we can access both inline properties as well as block properties.
+    by applying display properties it defaultly enhance the visibility and spacing.
+    
+
+->Overflow: 
+    Overflow tag is mainly used for hidding the images getting exists from the border.
+    By creating Overflow as auto we can see the excess content by scrolling.
+    And also we can able to hide the x axis nor y axis according to our wish.
+
+
+    //flexbox,positions,pseudoclasses and pseudoelements finally mediaqueries these are the core concepts.

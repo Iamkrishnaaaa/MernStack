@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.nav{
+    background: black;
+    height: 100px;
+    display: flex;
+    /* justify content is used for allining the text rignt left */
+    /* alligh items is used for allining the text top and bottom */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px ;
+}
+.nav a{
+    text-decoration: none;
+}
+.but-nav1{
+    color: rgb(49, 162, 232);
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    margin-left: 10PX;
+}
+.but-nav2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px
+}
+.continer{
+    width: 400px;
+    margin: 10px auto;
+}
+input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 14px;
+    border-radius: 10px;
+    /* boxsizing is used to cut out excess part things which is overflow from the respective box */
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+.but-reg{
+    background-color:black;
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    /* cursor pointer is used to show the specific item by pointing the unusually */
+    cursor: pointer;
+}
+.continer-center{
+    display: flex;
+    align-items: center;
+    /* vh in height represent like a same px and other similar */
+    height: 80vh;
+}
+.sample-web{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background: lightgrey;
+    padding: 6px;
+    border: 1px solid ;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

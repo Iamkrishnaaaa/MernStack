@@ -1,0 +1,21 @@
+CSS class:
+
+In css box model we can use class for separating the even ones actually.
+ Next we can add multiple classes together by adding them with a space.
+[eg:<h1 class="title" "title2 title3"] easy nd simple
+
+CSS BOX MODEL:
+   *Border
+   *padding
+   *margin
+
+->Border
+   *thickness,
+   *style[Solid,dotted,dashed,groove]
+->padding
+    *it is used for making the text align in center within the border.
+->margin
+    *it is used for making space outside the border.
+
+    CHOOSING COLORS:
+        #color hunt web is used for getimg perfect colors

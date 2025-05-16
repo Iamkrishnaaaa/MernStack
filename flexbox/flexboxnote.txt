@@ -1,0 +1,2 @@
+Flexbox is basically used to create layouts.Layout insense cresting images side by side
+--everything is clearly explained in code itself--

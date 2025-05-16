@@ -1,0 +1,163 @@
+/* media query = responsiveness*/
+/* Depending on the size of the screen we can apply the css */
+/* By using this media query we can make the similarities for both pc and mobile viewing feature */
+body{
+    margin-top: 10px;
+
+}
+/* .card{
+    width: 400px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+        border-radius: 20px;
+            border: 1px solid ;
+            padding: 10px;
+
+
+} */
+.card-img{
+    width: 100%;
+    height: 580px;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+.text{
+    margin-top: -1px;
+    margin-bottom: -15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(90, 44, 11, 0.966)
+}
+/* example of media query */
+/* here we can able to customize our priorities by commanting */
+@media(min-width:586px){
+.card{
+    /* width: 400px; */
+    margin: 50px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+        border-radius: 20px;
+            border: 1px solid ;
+            padding: 10px;
+
+}
+}
+@media(max-width:586px){
+.card{
+    /* width: 400px; */
+    margin: 50px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+        border-radius: 16px;
+            border: 1px solid ;
+            padding: 10px;
+}
+.card{
+    width: 50%;
+    height: 50%;
+}
+}
+/* breakpoints
+sm->Small(586px)
+md->medium(786px)
+lg->large(992px)
+xml(extra large)->pc,laptops(1200px)
+ */
+
+ /* min width:
+        in this example min 1200px which suits for any xml devices min need
+        to be 1200px and can be exceeds.
+    max width:
+        in this example max 586px sm small screen devics are applied 
+        maxly 586px only applied.
+  */
+
+  /* .container{
+    display: flex;
+    justify-content: center;
+  }
+  .conorex{
+    width:400px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .khabibex{
+    width:400px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+  } */
+
+  /* mediaquery */
+  @media(min-width:586px){
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .conorex{
+    width:400px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 6px 8px 4px 3px #ddd;
+  }
+  .conor-img{
+    width:100%;
+    border-radius: 16px;
+  }
+  .khabib-img{
+    width:100%;
+    border-radius: 16px;
+  }
+  .khabibex{
+    width:400px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0 3px 4px 0 #9d9b9b;
+
+  }
+
+  }
+
+  @media(max-width:586px){
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .conorex{
+    width:400px;
+    border: 1px solid grey;
+    border-radius: 16px ;
+    padding: 10px;
+    margin: 10px auto;
+    background: #ceccccde;
+            box-shadow: 6px 8px 4px 3px #ddd;
+
+  }
+  .conor-img{
+    width:100%;
+    border-radius: 16px;
+  }
+  .khabib-img{
+    width:100%;
+    border-radius: 16px;
+  }
+  .khabibex{
+    width:400px;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px auto;
+        background: #ceccccde;
+        box-shadow: 6px 8px 4px 3px #ddd;
+
+  }
+  }
